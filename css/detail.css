@@ -1,0 +1,91 @@
+.middlebox{
+	width: 960px;
+	height: 800px;
+	background: #fff;
+}
+
+
+.detailleft{
+	width: 240px;
+	height:800px;
+/*	border: 1px solid red;*/
+	
+}
+
+.box1 h1, .box2 h1, .box3 h1{
+	background: #363601;
+	height: 35px;
+	line-height: 35px;
+	font-size: 18px;
+	color: #fff;
+	text-indent: 20px;
+}
+
+.box1 ul li, .box3 ul li{
+	background: #dadde5;
+	border-bottom: 1px solid #fff;
+	line-height: 30px;
+	text-indent: 15px;
+}
+
+.box2 ul li{
+	line-height: 30px;
+	text-indent: 15px;
+}
+
+.box1 a, .box2 a, .box3 a{
+	color: black;
+	font-size: 14px;
+	font-family: "黑体";
+}
+
+.box2{
+	margin-top: 9px;
+}
+
+.box2 ul li{
+	list-style:inside;
+	font-size: 14px;
+}
+
+/*.box2 ul li s{
+	width: 3px;
+	height: 3px;
+	display: inline-block;
+	background: url(../images/yuandian.png) no-repeat;
+	vertical-align: middle;
+	margin: -4px 5px 0 -8px;
+}*/  /*以图片方式加入s标签实现原点的方法*/
+
+.detailright{
+	width: 700px;
+	height: 800px;
+	margin-left: 20px;
+}
+
+.detail img{
+	width: 687px;
+	display: inline-block;
+	border-bottom: 1px dashed #000;
+}
+.detailtop {
+	width: 687px;
+	line-height: 30px;
+	text-indent: 17px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 14px;
+	background: url(../images/productbiaoti.png) no-repeat;
+}
+
+
+.detailcontent{
+	height: 400px;
+	width: 390px;
+	padding: 150px;
+	border: 1px solid #b1bfe6;
+	margin-top: 10px;
+	font-size: 100px;
+	font-weight: bold;
+	color: #687494;
+}
