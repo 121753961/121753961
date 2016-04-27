@@ -1,0 +1,32 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, legend, input, textarea, button, p, blockquote, th, td {
+  margin: 0;
+  padding: 0; }
+
+textarea {
+  resize: none; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: #f6f6f6; }
+
+a, img {
+  border: 0; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  color: #0053a6; }
+
+li {
+  list-style-type: none; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,296 @@
+body{
+	margin: 0 auto;
+	padding: 0;
+	min-width: 320px;
+	max-width: 640px;
+	position: relative;
+}
+
+div, h1, ul, li, p{
+	margin: 0;
+	padding: 0;
+}
+
+.main{
+	width: 100%;
+	height: 100%;
+	/*height: 100%;*/
+	border-radius: 1px solid red;
+}
+
+.head-back{
+	width: 100%;
+	background: #d92c2e;
+	float: left;
+	padding: 6px 0;
+
+}
+
+
+
+.head-back  a{
+	width: 5%;
+	/*height: 40px;*/
+	/*height: 100%;*/
+	display: block;
+	float: left;
+	margin-left: 7px;
+	/*border: 2px solid blue;*/
+	padding: 7px 0;
+
+}
+
+.head-back  a  img{
+	width: auto;
+	height: 26px;
+	/*line-height: 60px;*/
+	float: left;
+	display: block;
+	vertical-align: top;
+	/*border: 1px solid yellow;*/
+}
+
+
+
+.head-back  span{
+	display: block;
+	width: 93%
+	height:40px;
+	/*border: 2px solid yellow;*/
+	font-size: 2rem;
+ 	line-height: 40px;
+	font-family: 微软雅黑;
+	font-weight: thick;
+	letter-spacing: 2px;
+	color: #fff;
+	text-align: center;
+}
+
+
+
+
+.main .banner{
+	width: 100%;
+	height: auto;
+	display: block;
+	vertical-align: top;
+}
+
+
+/*      爆款推荐开始      */
+
+.main .baokuan{
+	width: 100%;
+	/*height: 100%;*/
+	float: left;
+	/*border: 1px solid red;*/
+	background: #9be7ff;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.main .baokuan .pro1{
+	width: 100%;
+	float: left;
+	/*border:1px solid yellow;*/
+}
+
+.main .baokuan .pro .text{
+	width: 35%;
+	height: 100%;
+	float: left;
+	
+}
+
+.main .baokuan .pro1 .text1{
+margin-left: 5%;
+margin-top: 3%;
+}
+
+
+.main .baokuan .pro1 img, .main .baokuan .pro2 img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+
+.main .baokuan .pro1 .pic{
+	width: 50%;
+	height: 100%;
+	float: left;
+	margin: 3% 3% 0 7%;
+}
+
+.baokuan .pro  .btn{
+	display: inline-block;
+	background: #cf041c;
+	margin-top: 3px;
+	font-size: 1.6rem;
+	text-align: center;
+	color: #fff;
+	font-family:微软雅黑;
+	padding: 1% 3%;
+}
+
+.baokuan .pro  .btn2{
+	background: #d1d1d1;
+}
+
+.main .baokuan .pro2{
+	width: 100%;
+	float: left;
+	margin-top: 6%;
+}
+
+.main .baokuan .pro2 .text2{
+	float: right;
+	margin-right: 5%;
+	margin-top: 7%;
+	/*border: 1px solid #fff;*/
+}
+
+.main .baokuan .pro2 .pic{
+	width: 52%;
+	height: 100%;
+	float: left;
+	margin-left: 0 7% 0 3%;
+}
+
+
+
+
+.bolang{
+	width: 100%;
+	/*height: 30px;*/
+	display:block;
+	float: left;
+	background: #0078c1;
+	/*border: 2px solid blue;*/
+}
+
+.bolang img{
+	width: 100%;
+	height: auto;
+	display: block;
+	float: left;
+}
+
+
+/*      爆款推荐结束      */
+
+
+
+/*      产品列表开始      */
+
+.proList{
+	width: 100%；
+	height:400px;
+	background: #0078c1;
+	float: left;
+
+}
+
+.proList ul{
+	width: 96%;
+	height: 100%;
+	display: block;
+	float: left;
+	padding: 2%;
+}
+
+.proList ul li{
+	width: 48%;
+	height: 100%;
+	display: block;
+	float: left;
+	margin: 1%;
+}
+
+.proList ul li a{
+	width: 100%;
+	display: block;
+	float: left;
+
+}
+
+.proList ul li a img{
+	width: 100%;
+	height: auto;
+	display: block;
+	float: left;
+}
+
+.proList .proname{
+	width: 100%;
+	min-width: 0;
+	padding: 0;
+	font-size: 1.4rem;
+	line-height: 1.4rem;
+	font-family: 微软雅黑;
+	color: #000;
+	background: #fff;
+	text-indent: 10px;
+	display: block;
+	/*border: 1px solid red;*/
+	float: left;
+	padding: 5px 0;
+
+}
+
+.proList .price{
+	width: 100%;
+	font-size: 2rem;
+	/*border: 1px solid yellow;*/
+	color: #d72d2e;
+	font-family: 微软雅黑;
+	background: #fff;
+	text-indent: 5px;
+}
+
+
+.proList .shopcart{
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	font-size: 1.6rem;
+	line-height: 30px;
+	color: #fff;
+	font-family: 微软雅黑;
+	background: #ff56a1;
+	margin-right: 1%;
+}
+
+
+.proList .more{
+	width: 100%;
+	text-align: center;
+	font-size: 1.6rem;
+	line-height: 30px;
+	font-family: 微软雅黑;
+	color: #fff;
+	float: left;
+	display: block;
+	text-decoration: none;
+	/*border: 1px solid #fff;*/
+	padding-bottom: 10px;
+}
+
+/*      产品列表结束      */
+
+.backtop{
+	width: 12%;
+	display: block;
+	float: right;
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+}
+
+
+.backtop img{
+	width: 100%;
+	height: auto;
+	float: right;
+}
